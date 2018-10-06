@@ -17,7 +17,7 @@ let g:colors_name="comfy"
 hi Normal	guifg=White guibg=grey20
 
 " highlight groups
-hi Cursor	cterm=magenta1 guifg=slategrey
+hi Cursor	ctermfg=magenta guifg=slategrey
 "hi CursorIM
 "hi Directory
 "hi DiffAdd
