@@ -15,7 +15,7 @@ endif
 let g:colors_name="comfy"
 
 hi Normal	guifg=#d5c1ca guibg=#180e13
-
+" testing line
 " highlight groups
 " hi Cursor	ctermfg=magenta guifg=magenta
 "hi CursorIM
@@ -29,7 +29,7 @@ hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=grey30 guifg=gold
 hi FoldColumn	guibg=grey30 guifg=tan
 hi IncSearch	guifg=slategrey guibg=khaki
-"hi LineNr
+hi LineNr	guifg=#df94be guibg=#25171e
 hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
 hi NonText	guifg=LightBlue guibg=grey30
