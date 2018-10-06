@@ -19,7 +19,7 @@ hi Normal	guifg=#d5c1ca guibg=#180e13
 " highlight groups
 " hi Cursor	ctermfg=magenta guifg=magenta
 "hi CursorIM
-hi Directory guifg=#865e71
+hi Directory guifg=#51a589
 "hi DiffAdd
 "hi DiffChange
 "hi DiffDelete
