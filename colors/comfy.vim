@@ -17,7 +17,7 @@ let g:colors_name="comfy"
 hi Normal	guifg=White guibg=grey20
 
 " highlight groups
-hi Cursor	ctermfg=magenta guifg=magenta
+" hi Cursor	ctermfg=magenta guifg=magenta
 "hi CursorIM
 "hi Directory
 "hi DiffAdd
@@ -48,7 +48,7 @@ hi WarningMsg	guifg=salmon
 "hi Tooltip
 
 " syntax highlighting groups
-hi Comment	guifg=SkyBlue
+hi Comment	guifg=DarkViolet
 hi Constant	guifg=#ffa0a0
 hi Identifier	guifg=palegreen
 hi Statement	guifg=khaki
