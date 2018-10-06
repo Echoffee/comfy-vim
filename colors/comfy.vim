@@ -14,7 +14,7 @@ if version > 580
 endif
 let g:colors_name="comfy"
 
-hi Normal	guifg=White guibg=grey20
+hi Normal	guifg=#d5c1ca guibg=#180e13
 
 " highlight groups
 " hi Cursor	ctermfg=magenta guifg=magenta
