@@ -51,14 +51,14 @@ hi WarningMsg	guifg=salmon
 hi Comment	guifg=#624452
 hi Constant	guifg=#ffa0a0
 hi Identifier	guifg=palegreen
-hi Statement	guifg=khaki
+hi Statement	guifg=#c9adba
 hi PreProc	guifg=indianred
-hi Type		guifg=darkkhaki
+hi Type		guifg=#865e71
 hi Special	guifg=navajowhite
 "hi Underlined
-hi Ignore	guifg=grey40
+hi Ignore	guifg=#180e13
 "hi Error
-hi Todo		guifg=orangered guibg=yellow2
+hi Todo		guifg=#eae0e4 guibg=#865e71
 
 " color terminal definitions
 hi SpecialKey	ctermfg=darkgreen
