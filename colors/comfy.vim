@@ -25,6 +25,7 @@ hi Directory guifg=#51a589
 "hi DiffDelete
 "hi DiffText
 "hi ErrorMsg
+hi NonText	guibg=#180e13
 hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=grey30 guifg=gold
 hi FoldColumn	guibg=grey30 guifg=tan
