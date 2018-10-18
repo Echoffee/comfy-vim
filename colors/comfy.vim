@@ -33,7 +33,6 @@ hi IncSearch	guifg=slategrey guibg=khaki
 hi LineNr	guifg=#df94be guibg=#25171e
 hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
-hi NonText	guifg=LightBlue guibg=grey30
 hi Question	guifg=springgreen
 hi Search	guibg=peru guifg=wheat
 hi SpecialKey	guifg=yellowgreen
