@@ -14,52 +14,6 @@ if version > 580
 endif
 let g:colors_name="comfy"
 
-hi Normal	guifg=#d5c1ca guibg=#180e13
-" testing line
-" highlight groups
-" hi Cursor	ctermfg=magenta guifg=magenta
-"hi CursorIM
-hi Directory guifg=#51a589
-"hi DiffAdd
-"hi DiffChange
-"hi DiffDelete
-"hi DiffText
-"hi ErrorMsg
-hi NonText	guibg=#180e13 guifg=#df94be
-hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
-hi Folded	guibg=grey30 guifg=gold
-hi FoldColumn	guibg=grey30 guifg=tan
-hi IncSearch	guifg=slategrey guibg=khaki
-hi LineNr	guifg=#df94be guibg=#25171e
-hi ModeMsg	guifg=goldenrod
-hi MoreMsg	guifg=SeaGreen
-hi Question	guifg=springgreen
-hi Search	guibg=peru guifg=wheat
-hi SpecialKey	guifg=yellowgreen
-hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
-hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
-hi Title	guifg=indianred
-hi Visual	gui=none guifg=khaki guibg=olivedrab
-"hi VisualNOS
-hi WarningMsg	guifg=salmon
-"hi WildMenu
-"hi Menu
-"hi Scrollbar
-"hi Tooltip
-
-" syntax highlighting groups
-hi Comment	guifg=#624452
-hi Constant	guifg=#ffa0a0
-hi Identifier	guifg=palegreen
-hi Statement	guifg=indianred
-hi PreProc	guifg=indianred
-hi Type		guifg=#865e71
-hi Special	guifg=navajowhite
-"hi Underlined
-hi Ignore	guifg=#180e13
-"hi Error
-hi Todo		guifg=#eae0e4 guibg=#865e71
-
 " color terminal definitions
 hi SpecialKey	ctermfg=darkgreen
 hi NonText	cterm=bold ctermfg=darkblue
@@ -69,11 +23,7 @@ hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
 hi Search	cterm=NONE ctermfg=grey ctermbg=blue
 hi MoreMsg	ctermfg=darkgreen
 hi ModeMsg	cterm=NONE ctermfg=brown
-hi LineNr	ctermfg=3
 hi Question	ctermfg=green
-hi StatusLine	cterm=bold,reverse
-hi StatusLineNC cterm=reverse
-hi VertSplit	cterm=reverse
 hi Title	ctermfg=5
 hi Visual	cterm=reverse
 hi VisualNOS	cterm=bold,underline
@@ -85,11 +35,8 @@ hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
-hi Comment	ctermfg=darkcyan
-hi Constant	ctermfg=brown
 hi Special	ctermfg=5
 hi Identifier	ctermfg=6
-hi Statement	ctermfg=3
 hi PreProc	ctermfg=5
 hi Type		ctermfg=2
 hi Underlined	cterm=underline ctermfg=5
@@ -97,5 +44,18 @@ hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
+"custom part
+hi Normal       ctermbg=NONE    ctermfg=6
+hi MatchParen   ctermbg=NONE    ctermfg=4       cterm=underline,bold
+hi VertSplit    ctermbg=NONE    ctermfg=2       cterm=bold
+hi StatusLine   ctermbg=1       ctermfg=7       cterm=bold
+hi StatusLineNC ctermbg=6       ctermfg=1       cterm=NONE
+hi Constant     ctermbg=NONE    ctermfg=1       cterm=NONE
+hi Comment      ctermbg=NONE    ctermfg=0       cterm=italic
+hi Statement    ctermbg=NONE    ctermfg=4       cterm=NONE
+hi LineNr       ctermbg=NONE    ctermfg=3       cterm=NONE
+hi TabLineSel   ctermbg=1       ctermfg=7       cterm=bold
+hi TabLineFill  ctermbg=NONE    ctermfg=NONE    cterm=NONE
+hi TabLine      ctermbg=6       ctermfg=1       cterm=NONE
 
 "vim: sw=4
