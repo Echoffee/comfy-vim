@@ -57,5 +57,6 @@ hi LineNr       ctermbg=NONE    ctermfg=3       cterm=NONE
 hi TabLineSel   ctermbg=1       ctermfg=7       cterm=bold
 hi TabLineFill  ctermbg=NONE    ctermfg=NONE    cterm=NONE
 hi TabLine      ctermbg=6       ctermfg=1       cterm=NONE
+hi Todo         ctermbg=1       ctermfg=7       cterm=bold
 
 "vim: sw=4
