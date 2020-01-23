@@ -55,7 +55,7 @@ hi StatusLineNC ctermbg=6       ctermfg=1       cterm=NONE
 hi Constant     ctermbg=NONE    ctermfg=1       cterm=NONE
 
 "hi Comment      ctermbg=NONE    ctermfg=0       cterm=italic
-hi Comment      ctermbg=NONE    ctermfg=6       cterm=italic
+hi Comment      ctermbg=NONE    ctermfg=3       cterm=italic
 
 hi Statement    ctermbg=NONE    ctermfg=4       cterm=NONE
 hi LineNr       ctermbg=NONE    ctermfg=3       cterm=NONE
@@ -66,6 +66,6 @@ hi Todo         ctermbg=1       ctermfg=7       cterm=bold
 
 hi Visual       ctermbg=NONE    ctermfg=117
 hi cCustomClass ctermbg=NONE    ctermfg=2
-hi cCustomFunc  ctermbg=NONE    ctermfg=3
+hi cCustomFunc  ctermbg=NONE    ctermfg=6
 
 "vim: sw=4
