@@ -45,18 +45,27 @@ hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 "custom part
-hi Normal       ctermbg=NONE    ctermfg=6
+"hi Normal       ctermbg=NONE    ctermfg=6
+hi Normal       ctermbg=NONE    ctermfg=0
+
 hi MatchParen   ctermbg=NONE    ctermfg=4       cterm=underline,bold
 hi VertSplit    ctermbg=NONE    ctermfg=2       cterm=bold
 hi StatusLine   ctermbg=1       ctermfg=7       cterm=bold
 hi StatusLineNC ctermbg=6       ctermfg=1       cterm=NONE
 hi Constant     ctermbg=NONE    ctermfg=1       cterm=NONE
-hi Comment      ctermbg=NONE    ctermfg=0       cterm=italic
+
+"hi Comment      ctermbg=NONE    ctermfg=0       cterm=italic
+hi Comment      ctermbg=NONE    ctermfg=6       cterm=italic
+
 hi Statement    ctermbg=NONE    ctermfg=4       cterm=NONE
 hi LineNr       ctermbg=NONE    ctermfg=3       cterm=NONE
 hi TabLineSel   ctermbg=1       ctermfg=7       cterm=bold
 hi TabLineFill  ctermbg=NONE    ctermfg=NONE    cterm=NONE
 hi TabLine      ctermbg=6       ctermfg=1       cterm=NONE
 hi Todo         ctermbg=1       ctermfg=7       cterm=bold
+
+hi Visual       ctermbg=NONE    ctermfg=117
+hi cCustomClass ctermbg=NONE    ctermfg=2
+hi cCustomFunc  ctermbg=NONE    ctermfg=3
 
 "vim: sw=4
