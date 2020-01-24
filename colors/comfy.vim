@@ -68,5 +68,6 @@ hi Visual       ctermbg=NONE    ctermfg=117
 hi cCustomClass ctermbg=NONE    ctermfg=2
 hi cCustomFunc  ctermbg=NONE    ctermfg=6
 hi IncSearch    ctermbg=161     ctermfg=190
+hi Search       ctermfg=117     ctermfg=190
 
 "vim: sw=4
