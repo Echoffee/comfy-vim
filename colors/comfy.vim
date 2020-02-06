@@ -70,4 +70,10 @@ hi cCustomFunc  ctermbg=NONE    ctermfg=6
 hi IncSearch    ctermbg=161     ctermfg=190
 hi Search       ctermfg=117     ctermfg=190
 
+"Git diff
+hi DiffChange   ctermbg=111
+hi DiffText     ctermbg=117
+hi DiffDelete   ctermbg=217
+hi DiffAdd      ctermbg=157
+
 "vim: sw=4
