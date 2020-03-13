@@ -38,7 +38,7 @@ hi DiffText	cterm=bold ctermbg=1
 hi Special	ctermfg=5
 hi Identifier	ctermfg=6
 hi PreProc	ctermfg=5
-hi Type		ctermfg=2
+hi Type		ctermfg=1
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
@@ -55,7 +55,7 @@ hi StatusLineNC ctermbg=6       ctermfg=1       cterm=NONE
 hi Constant     ctermbg=NONE    ctermfg=1       cterm=NONE
 
 "hi Comment      ctermbg=NONE    ctermfg=0       cterm=italic
-hi Comment      ctermbg=NONE    ctermfg=36       cterm=italic
+hi Comment      ctermbg=NONE    ctermfg=2       cterm=italic
 
 hi Statement    ctermbg=NONE    ctermfg=4       cterm=NONE
 hi LineNr       ctermbg=NONE    ctermfg=3       cterm=NONE
